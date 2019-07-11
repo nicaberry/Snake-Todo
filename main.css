@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ground {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.blockH {
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    height: 10px;
+}
+.ground :last-child {
+    border-bottom: 0;
+} 
+
+.blockV {
+    box-sizing: border-box;
+    float: left;
+    border-right: 1px solid black;
+    width: 10px;
+    height: 10px;
+}
+
+.blockH :last-child {
+    border-right: 0;
+}
+
+.todo {
+    background-color: black;
+    box-sizing: border-box;
+    float: left;
+    width: 10px;
+    height: 10px;
+}
+.todo1 {
+    background-color: green;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+    width: 10px;
+    height: 10px;
+}
